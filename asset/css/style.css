@@ -56,3 +56,7 @@ main {
 .description {
   font-weight: bold;
 }
+
+.description span {
+  color: red;
+}
