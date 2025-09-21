@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10秒当てゲーム</title>
+  <link rel="stylesheet" href="asset/css/style.css" type="text/css">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  <script src="asset/javaScript/main.js" defer></script>
+</head>
+<body>
+  <main>
+    <div class="wrapper">
+      <div class="game-area">
+        <h1>10秒当てゲーム</h1>
+        <p class="description">
+          モード説明<br>
+          通常モード・・・ 普通のゲーム<br>
+          邪魔モード・・・ 声で邪魔入る<br>
+        </p>
+        <button type="button" id="start-btn">START</button>
+        <label for="mode-select">モードを選択:</label>
+        <select id="mode-select">
+          <option value="normal">通常モード</option>
+          <option value="bother">邪魔モード</option>
+        </select>
+        <h2 id="comment"></h2>
+        <h2 id="result"></h2>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
